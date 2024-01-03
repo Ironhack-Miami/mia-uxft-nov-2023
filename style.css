@@ -13,6 +13,7 @@ h4,
 h5,
 h6 {
   font-family: 'DM Serif Display', serif;
+  margin: 10px 0;
 }
 
 h1 {
@@ -22,7 +23,6 @@ h1 {
 
 h2 {
   font-size: 4.209rem;
-  background-color: darkviolet;
 }
 
 h3 {
@@ -40,3 +40,146 @@ h5 {
 h6 {
   font-size: 1.333rem;
 }
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: gold;
+}
+
+form {
+  flex-direction: column;
+}
+
+#hero {
+  justify-content: space-around;
+  background-color: honeydew;
+  height: 80vh;
+}
+
+#news {
+  flex-direction: column;
+  align-items: center;
+  height: 70%vh;
+  background-color: orchid;
+}
+
+#news div {
+  justify-content: space-around;
+}
+
+#features {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80dvh;
+  background-color: lightgreen;
+}
+#features div {
+  justify-content: space-around;
+}
+
+#contact {
+  justify-content: space-around;
+  height: 80vh;
+  padding: 48px;
+}
+
+.cards {
+  margin: 24px;
+  background-color: azure;
+}
+
+.features {
+  margin: 24px;
+  text-align: center;
+}
+
+.features img {
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+}
+
+/* Forms - Start */
+input {
+  padding: 16px 24px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+  box-sizing: border-box;
+  width: 300px;
+}
+
+input:focus {
+  background-color: lightcyan;
+  outline: 0;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  resize: none;
+
+  padding: 16px 24px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+textarea:focus {
+  background-color: lightcyan;
+  outline: 0;
+}
+
+input[type='submit'] {
+  border: none;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+/* Forms - End  */
+
+/* Links - Start */
+a:link,
+a:visited {
+  text-decoration: none;
+  color: seagreen;
+  padding: 10px;
+}
+a:hover {
+  color: darkred;
+}
+a:active {
+  color: sandybrown;
+}
+
+/* Links - End */
+
+/* CTA Button - Start */
+a.cta-button:link,
+a.cta-button:visited {
+  background-color: orangered;
+  border-radius: 8px;
+  color: whitesmoke;
+  padding: 16px 24px;
+}
+a.cta-button:hover {
+  background-color: tomato;
+}
+a.cta-button:active {
+  background-color: darkred;
+}
+
+/* CTA Button - End */
